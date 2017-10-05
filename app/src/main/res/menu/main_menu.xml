@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/new_plan"
+        android:title="新建标图"/>
+    <item
+        android:id="@+id/new_road"
+        android:title="新建道路"/>
+    <item
+        android:id="@+id/liberary"
+        android:title="收藏的点"
+        android:icon="@mipmap/liberary"/>
+    <item
+        android:id="@+id/history"
+        android:title="历史轨迹"
+        android:icon="@mipmap/history"/>
+    <item
+        android:id="@+id/arrow"
+        android:title="箭头选项"/>
+    <item
+        android:id="@+id/db_backup"
+        android:title="数据备份"/>
+    <item
+        android:id="@+id/db_restore"
+        android:title="数据恢复"/>
+</menu>

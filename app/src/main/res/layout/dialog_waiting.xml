@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="20dp"
+              android:layout_gravity="center"
+              android:background="@drawable/waiting_popup">
+    <ProgressBar
+            android:layout_height="35dip"
+            android:layout_width="35dip"
+            android:layout_gravity="center_vertical"
+            android:indeterminateDrawable="@drawable/progrss">
+    </ProgressBar>
+    <TextView
+            android:id="@+id/waiting_text"
+            android:layout_marginLeft="10dp"
+            android:maxWidth="200dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#FF7E7E7E"
+            android:layout_gravity="center_vertical"
+            android:text="请稍后..."/>
+</LinearLayout>

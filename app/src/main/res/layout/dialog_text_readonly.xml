@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/popup_bg"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:background="@drawable/popup_titlebar"
+        android:gravity="center"
+        android:minWidth="300dp"
+        android:text="标题"
+        android:textColor="#7e7e7e"
+        android:textSize="15sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_short"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="20dp"
+                android:text="如果上个界面没有被销毁的话，直接finish不就好了...何必模拟返回键如果上个界面没有被销毁的话，直接finish不就好了...何必模拟返回键"
+                android:textColor="#FF000000"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_long"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="如果上个界面没有被销毁的话，直接finish不就好了...何必模拟返回键如果上个界面没有被销毁的话，直接finish不就好了...何必模拟返回键"
+                android:textColor="#FF000000"
+                android:textSize="18sp"
+                android:visibility="gone"/>
+
+            <include layout="@layout/split_view_x"/>
+
+            <include layout="@layout/dialog_button_bar"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

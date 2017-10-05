@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">伦理秘书</string>
+    <string name="server_error">服务器错误</string>
+    <string name="cannot_connect_server">连接服务器失败</string>
+    <string name="no_network_error">没有网络连接, 请设置网络后重试</string>
+    <string name="login_title">用户登陆</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="accept_agreement">我已阅读并同意服务条款</string>
+    <string name="newuser_please">新用户请</string>
+    <string name="press_register">点击注册</string>
+    <string name="please_choose">请选择</string>
+    <string name="take_photo">拍张照片</string>
+    <string name="pick_photo">从手机相册里面选择</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="please_wait_dots">请稍后...</string>
+    <string name="phone_number">手机号</string>
+    <string name="phone_number_as_username">请输入电话号码作为用户名</string>
+    <string name="captcha">验证码</string>
+    <string name="input_captcha">请输入验证码</string>
+    <string name="send_captcha">发送验证码</string>
+    <string name="password_limitation_prompt">请输入至少6位数的密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="input_password_again">请再次输入密码</string>
+    <string name="nick_name">昵称</string>
+    <string name="input_nick_name">请输入您的昵称</string>
+    <string name="next_stage">下一步</string>
+    <string name="user_register">用户注册</string>
+    <string name="set_head_pic">设置头像</string>
+    <string name="upload_head_pic_prompt">请上传一张照片做头像</string>
+    <string name="unset_optional">未设置(可选)</string>
+    <string name="sex">性别</string>
+    <string name="unset">未设置</string>
+    <string name="age">年龄</string>
+    <string name="dot">•</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

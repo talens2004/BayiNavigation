@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/gauss"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height_standard"
+        android:background="#99000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="当前高斯坐标  X：12345  -  Y：67890"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bar_height_standard"
+        android:layout_gravity="right"
+        >
+
+        <ImageView
+            android:id="@+id/local_love"
+            android:layout_width="@dimen/icon_width_small"
+            android:layout_height="@dimen/icon_width_small"
+            android:padding="10dp"
+            android:background="@drawable/common_tab_bg"
+            android:scaleType="centerInside"
+            android:src="@mipmap/love_icon"/>
+
+        <ImageView
+            android:id="@+id/switch_panel"
+            android:layout_width="@dimen/icon_width_small"
+            android:layout_height="@dimen/icon_width_small"
+            android:padding="10dp"
+            android:background="@drawable/common_tab_bg"
+            android:scaleType="centerInside"
+            android:src="@mipmap/paint"/>
+
+        <ImageView
+            android:id="@+id/setting_stop"
+            android:layout_width="@dimen/icon_width_small"
+            android:layout_height="@dimen/icon_width_small"
+            android:padding="8dp"
+            android:background="@drawable/common_tab_bg"
+            android:src="@drawable/stopping"/>
+
+        <ImageView
+            android:id="@+id/setting_icon"
+            android:layout_width="@dimen/icon_width_small"
+            android:layout_height="@dimen/icon_width_small"
+            android:padding="8dp"
+            android:background="@drawable/common_tab_bg"
+            android:src="@drawable/running"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="#99000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/local_model"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_tab_bg_colorhighlight"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/local"/>
+
+            <TextView
+                android:id="@+id/local_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="浏览"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/local_search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_tab_bg_colorhighlight"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/lay_marker"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="搜索"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/switch_trail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/common_tab_bg_colorhighlight"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/switch_icon"
+                android:layout_width="42dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/switch_close"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轨迹"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/clear_trail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@drawable/common_tab_bg_colorhighlight"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/clear_trail"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="清除"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/popup_menu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@drawable/common_tab_bg_colorhighlight"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/liberary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="菜单"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="100dp"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:text="开始记录轨迹"
+        android:background="@drawable/button_red_pressed"
+        android:visibility="gone"
+        />
+
+    <ScrollView
+        android:id="@+id/paint_panel"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/bar_height_standard"
+        android:layout_marginBottom="@dimen/bar_height_standard"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <include layout="@layout/bar_paint"/>
+
+    </ScrollView>
+    <FrameLayout
+        android:id="@+id/full_screen_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

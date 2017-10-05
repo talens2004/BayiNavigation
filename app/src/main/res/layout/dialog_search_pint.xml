@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/popup_bg"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:background="@drawable/popup_titlebar"
+        android:gravity="center"
+        android:text="请输入要查找的直角坐标"
+        android:textColor="#7e7e7e"
+        android:textSize="15sp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dip"
+                android:gravity="center_vertical"
+                android:text="x："
+                android:textColor="#7e7e7e"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/edit_x"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入x坐标"
+                android:gravity="center"
+                android:maxLength="7"
+                android:text="46"
+                android:inputType="number"
+                android:background="@drawable/button_white_normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="36dip"
+                android:gravity="center_vertical"
+                android:text="y："
+                android:textColor="#7e7e7e"
+                android:textSize="22sp"/>
+
+            <EditText
+                android:id="@+id/edit_y"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="请输入y坐标"
+                android:maxLength="8"
+                android:text="196"
+                android:gravity="center"
+                android:inputType="number"
+                android:background="@drawable/button_white_normal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <include layout="@layout/split_view_x"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="15dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="112dip"
+            android:layout_height="42dip"
+            android:background="@drawable/button_white_selector"
+            android:text="关闭"
+            android:textColor="#FF9D9D9D"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="110dip"
+            android:layout_height="42dip"
+            android:layout_marginLeft="9dip"
+            android:background="@drawable/button_green_selector"
+            android:text="查找"
+            android:textColor="#FFFFFFFF"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>
+      

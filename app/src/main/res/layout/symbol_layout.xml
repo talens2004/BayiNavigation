@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/symbol_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/panel_icon_004"
+        />
+
+
+    <TextView
+        android:id="@+id/symbol_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:text="基本指挥所"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        />
+
+</LinearLayout>

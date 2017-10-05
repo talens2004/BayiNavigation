@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/icon_width_large"
+              android:layout_height="match_parent"
+              android:background="#BB009999"
+              android:orientation="vertical"
+              android:id="@+id/icons_containt">
+
+
+    <ImageView
+        android:id="@+id/icon_001"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_001"
+        />
+
+    <ImageView
+        android:id="@+id/icon_002"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_002"
+        />
+
+    <ImageView
+        android:id="@+id/icon_003"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_003"
+        />
+
+    <ImageView
+        android:id="@+id/icon_004"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_004"
+        />
+
+    <ImageView
+        android:id="@+id/icon_005"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_005"
+        />
+
+    <ImageView
+        android:id="@+id/icon_006"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_006"
+        />
+
+    <ImageView
+        android:id="@+id/icon_007"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_007"
+        />
+
+    <ImageView
+        android:id="@+id/icon_008"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_008"
+        />
+
+    <ImageView
+        android:id="@+id/icon_009"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_009"
+        />
+
+    <ImageView
+        android:id="@+id/icon_010"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_010"
+        />
+
+    <ImageView
+        android:id="@+id/icon_011"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_011"
+        />
+
+    <ImageView
+        android:id="@+id/icon_012"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_012"
+        />
+
+    <ImageView
+        android:id="@+id/icon_013"
+        android:layout_width="@dimen/icon_width_large"
+        android:layout_height="@dimen/icon_width_large"
+        android:padding="10dp"
+        android:background="@drawable/common_tab_bg"
+        android:src="@mipmap/panel_icon_013"
+        />
+</LinearLayout>

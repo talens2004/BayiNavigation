@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/marker_love"
+        android:title="收藏"/>
+    <item
+        android:id="@+id/marker_remove"
+        android:title="移除"
+        android:icon="@mipmap/liberary"/>
+</menu>
